@@ -1,65 +1,24 @@
-# plotly-dash-snippets README
+# Plotly Dash Snippets Plugin
 
-This is the README for your extension "plotly-dash-snippets". After writing up a brief description, we recommend including the following sections.
+This is a snippets extension plugin for Visual Studio Code for the Plotly Dash microframework.
+
+[Plotly Dash](https://plotly.com/dash/) is a great Open Source/Enterprise tool for technical business/data analysts to share their data within their organisations. Plotly Dash in Python can be considered as the equivalent of what the React framework is in JavaScript.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+The snippets in this pluggin cover components from the Dash HTML Components, Dash Core Components and Dash Boostrap Component (develop by faculty.ai).
 
-For example if there is an image subfolder under your extension project workspace:
+All snippets start with the prefix \>dash
+<!-- \!\[feature X\]\(images/feature-x.png\) -->
 
-\!\[feature X\]\(images/feature-x.png\)
+### Dash HTML Component Snippets:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+- dashhtmla - HTML Anchor Tag
 
 ## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Please add known issues here. 
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- Dash HTML Core Component Snippets Added
