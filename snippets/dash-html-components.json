@@ -1,6 +1,6 @@
 {
     "Dash HTML Component - Anchor HTML element": {
-        "prefix": "dashcorea",
+        "prefix": "dashhtmla",
         "description": "Create a Anchor HTML element",
         "body": [
             "html.A(id='$1', className='$2',",
