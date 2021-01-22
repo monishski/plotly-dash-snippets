@@ -1,4 +1,4 @@
-# **WORK IN PROGRESS** Plotly Dash Snippets Plugin 
+# [**WORK IN PROGRESS**] Plotly Dash Snippets Plugin 
 
 This is a snippets extension plugin for Visual Studio Code for the Plotly Dash microframework.
 
