@@ -6,9 +6,9 @@ This is a snippets extension plugin for Visual Studio Code for the Plotly Dash m
 
 ## Features
 
-The snippets in this pluggin cover components from the Dash HTML Components, Dash Core Components and Dash Boostrap Component (develop by faculty.ai).
+The snippets in this pluggin cover components from the Dash HTML Components, Dash Core Components and Dash Boostrap Components (developed by faculty.ai).
 
-All snippets start with the prefix \>dash
+All snippets start with the prefix **dash**. In addition, Dash HTML Components start with the prefix *dashhtml*, Dash Core Component start with the prefix *dashcore* & Dash Bootstrap Components start with the prefix *dashboot*
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
 ### Dash HTML Component Snippets:
