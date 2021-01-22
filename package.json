@@ -10,7 +10,6 @@
     "author": {
         "name": "Monish Vassantrai"
     },
-    "homepage": "https://github.com/monishski/plotly-dash-snippets",
     "repository": {
         "type": "git",
         "url": "https://github.com/monishski/plotly-dash-snippets"
@@ -34,5 +33,6 @@
                 "path": "./snippets/dash-html-components.json"
             }
         ]
-    }
+    },
+    "homepage": "https://github.com/monishski/plotly-dash-snippets/master/README.md"
 }
