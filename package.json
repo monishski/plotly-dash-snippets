@@ -31,7 +31,7 @@
         "snippets": [
             {
                 "language": "python",
-                "path": "./snippets/snippets.dash-html-components"
+                "path": "./snippets/dash-html-components.json"
             }
         ]
     }

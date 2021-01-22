@@ -1,6 +1,5 @@
 {
     "Dash HTML Component - Anchor HTML element": {
-        // Documentation Source: https://dash.plotly.com/dash-html-components/a
         "prefix": "dashcorea",
         "description": "Create a Anchor HTML element",
         "body": [
