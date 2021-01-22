@@ -1,0 +1,25 @@
+{
+    "name": "plotly-dash-snippets",
+    "displayName": "Plotly Dash Snippets",
+    "description": "Snippets extension plugin for VS for the Plotly Dash microframework",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "publisher": "m.vassantrai",
+    "author": {
+        "name": "Monish Vassantrai"
+    },
+
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

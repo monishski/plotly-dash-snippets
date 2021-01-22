@@ -1,0 +1,13 @@
+{
+    "Dash HTML Component - Anchor HTML element": {
+        // Documentation Source: https://dash.plotly.com/dash-html-components/a
+        "prefix": "dashcorea",
+        "description": "Create a Anchor HTML element",
+        "body": [
+            "html.A(id='$1', className='$2',",
+                "\thref='$3',",
+                "\tchildren=[$0]",
+            ")"
+        ]
+    }
+}
