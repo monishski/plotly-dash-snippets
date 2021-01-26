@@ -1,0 +1,23 @@
+{
+	"Dash - Uncontrolled State Callback": {
+		"prefix": "dashcb",
+		"description": "Create uncontrolled state callback function",
+		"body": [
+			"@app.callback(Output('${output_id}', '${output_prop}'), ",
+			"\t\t\tInput('${input_id}', '${input_prop}'))",
+			"def ${fn}(${input_prop}):",
+			"\treturn $0"
+		]
+	},
+	"Dash - Controlled State Callback": {
+		"prefix": "dashcbstate",
+		"description": "Create controlled state callback function",
+		"body": [
+			"@app.callback(Output('${output_id}', '${output_prop}'), ",
+			"\t\t\tInput('${input_id}', '${input_prop}'))",
+			"\t\t\tState('${state_id}', '${state_prop}'))",
+			"def ${fn}(${input_prop}, ${state_prop}):",
+			"\treturn $0"
+		]
+	}
+}
