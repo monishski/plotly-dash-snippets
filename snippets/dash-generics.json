@@ -19,5 +19,12 @@
 			"def ${fn}(${input_prop}, ${state_prop}):",
 			"\treturn $0"
 		]
+	},
+	"Dash Inline Styling": {
+        "prefix": "dashinlinestyle",
+        "description": "Create a style dictionary",
+        "body": [
+            "style={'$1': '$2'}$0"
+        ]
 	}
 }
