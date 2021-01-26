@@ -20,60 +20,66 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 
 - Create snippets for other abstractions (e.g. importing, creating the application etc.) [?] 
 
+### Dash Generic Snippets: 
+
+- `dashcb` - Uncontrolled Stateless Callback
+- `dashcbstate` - Controlled Stateful Callback
+- `dashinlinestyle` - Inline Styling 
+
 ### Dash HTML Component Snippets:
 
-- `dashhtmla` - Dash HTML Anchor - Tag
-- `dashhtmla` - Dash HTML Component - Anchor
-- `dashhtmlbr` - Dash HTML Component - Break 
-- `dashhtmlbtn` - Dash HTML Component - Button 
-- `dashhtmldiv` - Dash HTML Component - Div 
-- `dashhtmlfig` - Dash HTML Component - Figure 
-- `dashhtmlform` - Dash HTML Component - Form 
-- `dashhtmlframe` - Dash HTML Component - Frame 
-- `dashhtmlh1` - Dash HTML Component - H1 
-- `dashhtmlh2` - Dash HTML Component - H2 
-- `dashhtmlh3` - Dash HTML Component - H3 
-- `dashhtmlh4` - Dash HTML Component - H4 
-- `dashhtmlh5` - Dash HTML Component - H5 
-- `dashhtmlh6` - Dash HTML Component - H6 
-- `dashhtmlheader` - Dash HTML Component - Header 
-- `dashhtmlhr` - Dash HTML Component - Hr 
-- `dashhtmli` - Dash HTML Component - I 
-- `dashhtmliframe` - Dash HTML Component - Iframe 
-- `dashhtmlimg` - Dash HTML Component - Img 
-- `dashhtmllabel` - Dash HTML Component - Label 
-- `dashhtmlli` - Dash HTML Component - Li 
-- `dashhtmllink` - Dash HTML Component - Link 
-- `dashhtmlnav` - Dash HTML Component - Strong 
-- `dashhtmlspan` - Dash HTML Component - Span 
-- `dashhtmltable` - Dash HTML Component - Table 
-- `dashhtmltbody` - Dash HTML Component - Tbody 
-- `dashhtmltd` - Dash HTML Component - Td 
-- `dashhtmltextarea` - Dash HTML Component - Textarea 
-- `dashhtmlth` - Dash HTML Component - Th 
-- `dashhtmlthead` - Dash HTML Component - Thead 
-- `dashhtmltr` - Dash HTML Component - Tr 
-- `dashhtmlul` - Dash HTML Component - Ul
+- `dashhtmla` - HTML Anchor - Tag
+- `dashhtmla` - HTML Component - Anchor
+- `dashhtmlbr` - HTML Component - Break 
+- `dashhtmlbtn` - HTML Component - Button 
+- `dashhtmldiv` - HTML Component - Div 
+- `dashhtmlfig` - HTML Component - Figure 
+- `dashhtmlform` - HTML Component - Form 
+- `dashhtmlframe` - HTML Component - Frame 
+- `dashhtmlh1` - HTML Component - H1 
+- `dashhtmlh2` - HTML Component - H2 
+- `dashhtmlh3` - HTML Component - H3 
+- `dashhtmlh4` - HTML Component - H4 
+- `dashhtmlh5` - HTML Component - H5 
+- `dashhtmlh6` - HTML Component - H6 
+- `dashhtmlheader` - HTML Component - Header 
+- `dashhtmlhr` - HTML Component - Hr 
+- `dashhtmli` - HTML Component - I 
+- `dashhtmliframe` - HTML Component - Iframe 
+- `dashhtmlimg` - HTML Component - Img 
+- `dashhtmllabel` - HTML Component - Label 
+- `dashhtmlli` - HTML Component - Li 
+- `dashhtmllink` - HTML Component - Link 
+- `dashhtmlnav` - HTML Component - Strong 
+- `dashhtmlspan` - HTML Component - Span 
+- `dashhtmltable` - HTML Component - Table 
+- `dashhtmltbody` - HTML Component - Tbody 
+- `dashhtmltd` - HTML Component - Td 
+- `dashhtmltextarea` - HTML Component - Textarea 
+- `dashhtmlth` - HTML Component - Th 
+- `dashhtmlthead` - HTML Component - Thead 
+- `dashhtmltr` - HTML Component - Tr 
+- `dashhtmlul` - HTML Component - Ul
 
 ### Dash Core Component Snippets:
 
-- `dashcorechecklist` - Dash Core Component - Checklist
-- `dashcoredatepickerrange` - Dash Core Component - Date Picker Range
-- `dashcoredatepickersingle` - Dash Core Component - Date Picker Single
-- `dashcoredropdown` - Dash Core Component - Dropdown
-- `dashcoregraph` - Dash Core Component - Graph
-- `dashcoreinput` - Dash Core Component - Input
-- `dashcoreinterval` - Dash Core Component - Interval
-- `dashcorelink` - Dash Core Component - Link
-- `dashcoreloading` - Dash Core Component - Loading
-- `dashcorelocation` - Dash Core Component - Location
-- `dashcoremarkdown` - Dash Core Component - Markdown
-- `dashcoreradioitems` - Dash Core Component - Radio Items
-- `dashcorerangeslider` - Dash Core Component - RangeSlider
-- `dashcoreslider` - Dash Core Component - Slider
-- `dashcoretab` - Dash Core Component - Tab
-- `dashcoretabs` - Dash Core Component - Tabs
-- `dashcoretextarea` - Dash Core Component - Textarea
+- `dashcorechecklist` - Core Component - Checklist
+- `dashcoredatepickerrange` - Core Component - Date Picker Range
+- `dashcoredatepickersingle` - Core Component - Date Picker Single
+- `dashcoredropdown` - Core Component - Dropdown
+- `dashcoregraph` - Core Component - Graph
+- `dashcoreinput` - Core Component - Input
+- `dashcoreinterval` - Core Component - Interval
+- `dashcorelink` - Core Component - Link
+- `dashcoreloading` - Core Component - Loading
+- `dashcorelocation` - Core Component - Location
+- `dashcoremarkdown` - Core Component - Markdown
+- `dashcoreradioitems` - Core Component - Radio Items
+- `dashcorerangeslider` - Core Component - RangeSlider
+- `dashcoreslider` - Core Component - Slider
+- `dashcoretab` - Core Component - Tab
+- `dashcoretabs` - Core Component - Tabs
+- `dashcoretextarea` - Core Component - Textarea
 
 ## Known Issues
 
