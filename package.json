@@ -31,6 +31,14 @@
             {
                 "language": "python",
                 "path": "./snippets/dash-html-components.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/dash-core-components.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/dash-generics.json"
             }
         ]
     },

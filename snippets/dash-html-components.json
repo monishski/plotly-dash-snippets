@@ -4,7 +4,7 @@
         "description": "Create a <a></a> HTML element",
         "body": [
             "html.A(id='$1', className='$2',",
-            "\thref='$3,",
+            "\thref='$3',",
             "\tchildren=[$4]",
             ")$0"
         ]
