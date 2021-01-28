@@ -28,58 +28,58 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 
 ### Dash HTML Component Snippets:
 
-- `dashhtmla` - HTML Anchor - Tag
-- `dashhtmla` - HTML Component - Anchor
-- `dashhtmlbr` - HTML Component - Break 
-- `dashhtmlbtn` - HTML Component - Button 
-- `dashhtmldiv` - HTML Component - Div 
-- `dashhtmlfig` - HTML Component - Figure 
-- `dashhtmlform` - HTML Component - Form 
-- `dashhtmlframe` - HTML Component - Frame 
-- `dashhtmlh1` - HTML Component - H1 
-- `dashhtmlh2` - HTML Component - H2 
-- `dashhtmlh3` - HTML Component - H3 
-- `dashhtmlh4` - HTML Component - H4 
-- `dashhtmlh5` - HTML Component - H5 
-- `dashhtmlh6` - HTML Component - H6 
-- `dashhtmlheader` - HTML Component - Header 
-- `dashhtmlhr` - HTML Component - Hr 
-- `dashhtmli` - HTML Component - I 
-- `dashhtmliframe` - HTML Component - Iframe 
-- `dashhtmlimg` - HTML Component - Img 
-- `dashhtmllabel` - HTML Component - Label 
-- `dashhtmlli` - HTML Component - Li 
-- `dashhtmllink` - HTML Component - Link 
-- `dashhtmlnav` - HTML Component - Strong 
-- `dashhtmlspan` - HTML Component - Span 
-- `dashhtmltable` - HTML Component - Table 
-- `dashhtmltbody` - HTML Component - Tbody 
-- `dashhtmltd` - HTML Component - Td 
-- `dashhtmltextarea` - HTML Component - Textarea 
-- `dashhtmlth` - HTML Component - Th 
-- `dashhtmlthead` - HTML Component - Thead 
-- `dashhtmltr` - HTML Component - Tr 
-- `dashhtmlul` - HTML Component - Ul
+- `htmla` - HTML Anchor - Tag
+- `htmla` - HTML Component - Anchor
+- `htmlbr` - HTML Component - Break 
+- `htmlbtn` - HTML Component - Button 
+- `htmldiv` - HTML Component - Div 
+- `htmlfig` - HTML Component - Figure 
+- `htmlform` - HTML Component - Form 
+- `htmlframe` - HTML Component - Frame 
+- `htmlh1` - HTML Component - H1 
+- `htmlh2` - HTML Component - H2 
+- `htmlh3` - HTML Component - H3 
+- `htmlh4` - HTML Component - H4 
+- `htmlh5` - HTML Component - H5 
+- `htmlh6` - HTML Component - H6 
+- `htmlheader` - HTML Component - Header 
+- `htmlhr` - HTML Component - Hr 
+- `htmli` - HTML Component - I 
+- `htmliframe` - HTML Component - Iframe 
+- `htmlimg` - HTML Component - Img 
+- `htmllabel` - HTML Component - Label 
+- `htmlli` - HTML Component - Li 
+- `htmllink` - HTML Component - Link 
+- `htmlnav` - HTML Component - Strong 
+- `htmlspan` - HTML Component - Span 
+- `htmltable` - HTML Component - Table 
+- `htmltbody` - HTML Component - Tbody 
+- `htmltd` - HTML Component - Td 
+- `htmltextarea` - HTML Component - Textarea 
+- `htmlth` - HTML Component - Th 
+- `htmlthead` - HTML Component - Thead 
+- `htmltr` - HTML Component - Tr 
+- `htmlul` - HTML Component - Ul
 
 ### Dash Core Component Snippets:
 
-- `dashcorechecklist` - Core Component - Checklist
-- `dashcoredatepickerrange` - Core Component - Date Picker Range
-- `dashcoredatepickersingle` - Core Component - Date Picker Single
-- `dashcoredropdown` - Core Component - Dropdown
-- `dashcoregraph` - Core Component - Graph
-- `dashcoreinput` - Core Component - Input
-- `dashcoreinterval` - Core Component - Interval
-- `dashcorelink` - Core Component - Link
-- `dashcoreloading` - Core Component - Loading
-- `dashcorelocation` - Core Component - Location
-- `dashcoremarkdown` - Core Component - Markdown
-- `dashcoreradioitems` - Core Component - Radio Items
-- `dashcorerangeslider` - Core Component - RangeSlider
-- `dashcoreslider` - Core Component - Slider
-- `dashcoretab` - Core Component - Tab
-- `dashcoretabs` - Core Component - Tabs
-- `dashcoretextarea` - Core Component - Textarea
+- `dccchecklist` - Core Component - Checklist
+- `dccdatepickerrange` - Core Component - Date Picker Range
+- `dccdatepickersingle` - Core Component - Date Picker Single
+- `dccdropdown` - Core Component - Dropdown
+- `dccgraph` - Core Component - Graph
+- `dccinput` - Core Component - Input
+- `dccinterval` - Core Component - Interval
+- `dcclink` - Core Component - Link
+- `dccloading` - Core Component - Loading
+- `dcclocation` - Core Component - Location
+- `dccmarkdown` - Core Component - Markdown
+- `dccradioitems` - Core Component - Radio Items
+- `dccrangeslider` - Core Component - RangeSlider
+- `dccslider` - Core Component - Slider
+- `dcctab` - Core Component - Tab
+- `dcctabs` - Core Component - Tabs
+- `dcctextarea` - Core Component - Textarea
 
 ## Known Issues
 
