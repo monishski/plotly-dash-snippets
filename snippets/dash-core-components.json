@@ -1,6 +1,6 @@
 {
     "Dash Core Component - Checklist": {
-        "prefix": "dashcorechecklist",
+        "prefix": "dccchecklist",
         "description": "Create a dcc.Checklist element",
         "body": [
 			"dcc.Checklist(id='$1', className='$2',",
@@ -10,7 +10,7 @@
         ]
 	},
 	"Dash Core Component - Date Picker Range": {
-        "prefix": "dashcoredatepickerrange",
+        "prefix": "dccdatepickerrange",
         "description": "Create a dcc.DatePickerRange element",
         "body": [
 			"dcc.DatePickerRange(id='$1', className='$2',",
@@ -23,7 +23,7 @@
         ]
 	},
 	"Dash Core Component - Date Picker Single": {
-        "prefix": "dashcoredatepickersingle",
+        "prefix": "dccdatepickersingle",
         "description": "Create a dcc.DatePickerSingle element",
         "body": [
 			"dcc.DatePickerSingle(id='$1', className='$2',",
@@ -35,7 +35,7 @@
         ]
 	},
 	"Dash Core Component - Dropdown": {
-        "prefix": "dashcoredropdown",
+        "prefix": "dccdropdown",
         "description": "Create a dcc.Dropdown element",
         "body": [
             "dcc.Dropdown(id='$1', className='$2',",
@@ -46,7 +46,7 @@
         ]
 	},
 	"Dash Core Component - Graph": {
-        "prefix": "dashcoregraph",
+        "prefix": "dccgraph",
         "description": "Create a dcc.Graph element",
         "body": [
 			"dcc.Graph(id='$1', className='$2',",
@@ -55,7 +55,7 @@
         ]
 	},
 	"Dash Core Component - Input": {
-        "prefix": "dashcoreinput",
+        "prefix": "dccinput",
         "description": "Create a dcc.Input element",
         "body": [
 			"dcc.Input(id='$1', className='$2',",
@@ -66,14 +66,14 @@
         ]
 	},
 	"Dash Core Component - Interval": {
-        "prefix": "dashcoreinterval",
+        "prefix": "dccinterval",
         "description": "Create a dcc.Interval element",
         "body": [
 			"dcc.Interval(id='$1', interval=$2)$0"
         ]
 	},
 	"Dash Core Component - Link": {
-        "prefix": "dashcorelink",
+        "prefix": "dcclink",
         "description": "Create a dcc.Link element",
         "body": [
 			"dcc.Input(id='$1', className='$2',",
@@ -83,16 +83,16 @@
         ]
 	},
 	"Dash Core Component - Loading": {
-        "prefix": "dashcoreloading",
+        "prefix": "dccloading",
         "description": "Create a dcc.Loading element",
         "body": [
-			"dcc.Loading(id='$1', className='$2', color='$3', children=[",
+			"dcc.Loading( className='$2', color='$3', children=[",
 			"\t$5",
 			"])$0"
         ]
 	},
 	"Dash Core Component - Location": {
-        "prefix": "dashcorelocation",
+        "prefix": "dcclocation",
         "description": "Create a dcc.Location element",
         "body": [
 			"dcc.Location(id='$1', className='$2', refresh=True$3,",
@@ -100,7 +100,7 @@
         ]
 	},
 	"Dash Core Component - Markdown": {
-        "prefix": "dashcoremarkdown",
+        "prefix": "dccmarkdown",
         "description": "Create a dcc.Markdown element",
         "body": [
 			"dcc.Markdown(id='$1', className='$2', '''",
@@ -109,7 +109,7 @@
         ]
 	},
 	"Dash Core Component - Radio Items": {
-        "prefix": "dashcoreradioitems",
+        "prefix": "dccradioitems",
         "description": "Create a dcc.RadioItems element",
         "body": [
 			"dcc.RadioItems(id='$1', className='$2',",
@@ -119,7 +119,7 @@
         ]
 	},
 	"Dash Core Component - RangeSlider": {
-        "prefix": "dashcorerangeslider",
+        "prefix": "dccrangeslider",
         "description": "Create a dcc.RangeSlider element",
         "body": [
             "dcc.RangeSlider(id='$1', className='$2',",
@@ -132,7 +132,7 @@
         ]
 	},
 	"Dash Core Component - Slider": {
-        "prefix": "dashcoreslider",
+        "prefix": "dccslider",
         "description": "Create a dcc.Slider element",
         "body": [
             "dcc.Slider(id='$1', className='$2',",
@@ -143,7 +143,7 @@
         ]
 	},
 	"Dash Core Component - Tab": {
-        "prefix": "dashcoretab",
+        "prefix": "dcctab",
         "description": "Create a dcc.Tab element",
         "body": [
 			"dcc.Tab(id='$1', className='$2',",
@@ -151,7 +151,7 @@
         ]
 	},
 	"Dash Core Component - Tabs": {
-        "prefix": "dashcoretabs",
+        "prefix": "dcctabs",
         "description": "Create a dcc.Tabs element",
         "body": [
 			"dcc.Tabs(id='$1', className='$2', value='$3', children=[",
@@ -160,7 +160,7 @@
         ]
 	},
 	"Dash Core Component - Textarea": {
-        "prefix": "dashcoretextarea",
+        "prefix": "dcctextarea",
         "description": "Create a dcc.Textarea element",
         "body": [
 			"dcc.Textarea(id='$1', className='$2',",

@@ -1,6 +1,6 @@
 {
     "Dash HTML Component - Anchor": {
-        "prefix": "dashhtmla",
+        "prefix": "htmla",
         "description": "Create a <a></a> HTML element",
         "body": [
             "html.A(id='$1', className='$2',",
@@ -10,14 +10,14 @@
         ]
     },
     "Dash HTML Component - Break": {
-        "prefix": "dashhtmlbr",
+        "prefix": "htmlbr",
         "description": "Create a <br/> HTML element",
         "body": [
             "html.Br(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Button": {
-        "prefix": "dashhtmlbtn",
+        "prefix": "htmlbtn",
         "description": "Create a <button></button> HTML element",
         "body": [
             "html.Button(id='$1', className='$2',",
@@ -26,7 +26,7 @@
         ]
     },
     "Dash HTML Component - Div": {
-        "prefix": "dashhtmldiv",
+        "prefix": "htmldiv",
         "description": "Create a <div></div> HTML element",
         "body": [
             "html.Div(id='$1', className='$2'",
@@ -35,14 +35,14 @@
         ]
     },
     "Dash HTML Component - Figure": {
-        "prefix": "dashhtmlfig",
+        "prefix": "htmlfig",
         "description": "Create a <figure></figure> HTML element",
         "body": [
             "html.Figure(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Form": {
-        "prefix": "dashhtmlform",
+        "prefix": "htmlform",
         "description": "Create a <form></form> HTML element",
         "body": [
             "html.Form(id='$1', className='$2', action='$3', encType='$4', method='POST'",
@@ -51,7 +51,7 @@
         ]
     },
     "Dash HTML Component - Frame": {
-        "prefix": "dashhtmlframe",
+        "prefix": "htmlframe",
         "description": "Create a <frame></frame> HTML element",
         "body": [
             "html.Frame(id='$1', className='$2',",
@@ -60,70 +60,70 @@
         ]
     },
     "Dash HTML Component - H1": {
-        "prefix": "dashhtmlh1",
+        "prefix": "htmlh1",
         "description": "Create a <h1></h1> HTML element",
         "body": [
             "html.H1(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - H2": {
-        "prefix": "dashhtmlh2",
+        "prefix": "htmlh2",
         "description": "Create a <h2></h2> HTML element",
         "body": [
             "html.H2(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - H3": {
-        "prefix": "dashhtmlh3",
+        "prefix": "htmlh3",
         "description": "Create a <h3></h3> HTML element",
         "body": [
             "html.H3(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - H4": {
-        "prefix": "dashhtmlh4",
+        "prefix": "htmlh4",
         "description": "Create a <h4></h4> HTML element",
         "body": [
             "html.H4(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - H5": {
-        "prefix": "dashhtmlh5",
+        "prefix": "htmlh5",
         "description": "Create a <h5></h5> HTML element",
         "body": [
             "html.H5(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - H6": {
-        "prefix": "dashhtmlh6",
+        "prefix": "htmlh6",
         "description": "Create a <h6></h6> HTML element",
         "body": [
             "html.H6(id='$1', className='$2', children=$3')$0"
         ]
     },
     "Dash HTML Component - Header": {
-        "prefix": "dashhtmlheader",
+        "prefix": "htmlheader",
         "description": "Create a <header></header> HTML element",
         "body": [
             "html.Header(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Hr": {
-        "prefix": "dashhtmlhr",
+        "prefix": "htmlhr",
         "description": "Create a <hr> HTML element",
         "body": [
             "html.Hr(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - I": {
-        "prefix": "dashhtmli",
+        "prefix": "htmli",
         "description": "Create a <i></i> HTML element",
         "body": [
             "html.I(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Iframe": {
-        "prefix": "dashhtmliframe",
+        "prefix": "htmliframe",
         "description": "Create a <iframe></iframe> HTML element",
         "body": [
             "html.Iframe(id='$1', className='$2',",
@@ -133,7 +133,7 @@
         ]
     },
     "Dash HTML Component - Img": {
-        "prefix": "dashhtmlimg",
+        "prefix": "htmlimg",
         "description": "Create a <img> HTML element",
         "body": [
             "html.Img(id='$1', className='$2',",
@@ -143,14 +143,14 @@
         ]
     },
     "Dash HTML Component - Label": {
-        "prefix": "dashhtmllabel",
+        "prefix": "htmllabel",
         "description": "Create a <label></label> HTML element",
         "body": [
             "html.Label(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - Li": {
-        "prefix": "dashhtmlli",
+        "prefix": "htmlli",
         "description": "Create a <li></li> HTML element",
         "body": [
             "html.Li(id='$1', className='$2'",
@@ -159,7 +159,7 @@
         ]
     },
     "Dash HTML Component - Link": {
-        "prefix": "dashhtmllink",
+        "prefix": "htmllink",
         "description": "Create a <link></link> HTML element",
         "body": [
             "html.Link(id='$1', className='$2',",
@@ -169,23 +169,30 @@
         ]
     },
     "Dash HTML Component - Nav": {
-        "prefix": "dashhtmlnav",
+        "prefix": "htmlnav",
         "description": "Create a <nav></nav> HTML element",
         "body": [
             "html.Nav(id='$1', className='$2',",
             "\tchildren=[$3]",
             ")$0"
         ]
+    },    
+    "Dash HTML Component - Strong": {
+        "prefix": "htmlstrong",
+        "description": "Create a <strong></strong> HTML element",
+        "body": [
+            "html.Strong([$1], className='$2')$0"
+        ]
     },
     "Dash HTML Component - Span": {
-        "prefix": "dashhtmlspan",
+        "prefix": "htmlspan",
         "description": "Create a <span></span> HTML element",
         "body": [
             "html.Span(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Table": {
-        "prefix": "dashhtmltable",
+        "prefix": "htmltable",
         "description": "Create a <table></table> HTML element",
         "body": [
             "html.Table(id='$1', className='$2',",
@@ -194,7 +201,7 @@
         ]
     },
     "Dash HTML Component - Tbody": {
-        "prefix": "dashhtmltbody",
+        "prefix": "htmltbody",
         "description": "Create a <tbody></tbody> HTML element",
         "body": [
             "html.Tbody(id='$1', className='$2',",
@@ -203,14 +210,14 @@
         ]
     },
     "Dash HTML Component - Td": {
-        "prefix": "dashhtmltd",
+        "prefix": "htmltd",
         "description": "Create a <td></td> HTML element",
         "body": [
             "html.Td(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - Textarea": {
-        "prefix": "dashhtmltextarea",
+        "prefix": "htmltextarea",
         "description": "Create a <textarea></textarea> HTML element",
         "body": [
             "html.Textarea(id='$1', className='$2',",
@@ -220,14 +227,14 @@
         ]
     },
     "Dash HTML Component - Th": {
-        "prefix": "dashhtmlTh",
+        "prefix": "htmlTh",
         "description": "Create a <th></th> HTML element",
         "body": [
             "html.Th(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - Thead": {
-        "prefix": "dashhtmlthead",
+        "prefix": "htmlthead",
         "description": "Create a <thead></thead> HTML element",
         "body": [
             "html.Thead(id='$1', className='$2',",
@@ -236,14 +243,14 @@
         ]
     },
     "Dash HTML Component - Tr": {
-        "prefix": "dashhtmltr",
+        "prefix": "htmltr",
         "description": "Create a <tr></tr> HTML element",
         "body": [
             "html.Tr(id='$1', className='$2', children='$3')$0"
         ]
     },
     "Dash HTML Component - Ul": {
-        "prefix": "dashhtmlul",
+        "prefix": "htmlul",
         "description": "Create a <ul></ul> HTML element",
         "body": [
             "html.Ul(id='$1', className='$2',",
