@@ -13,7 +13,7 @@
         "prefix": "dashhtmlbr",
         "description": "Create a <br/> HTML element",
         "body": [
-            "html.B(id='$1', className='$2', children=[$3])$0"
+            "html.Br(id='$1', className='$2', children=[$3])$0"
         ]
     },
     "Dash HTML Component - Button": {
@@ -168,7 +168,7 @@
             ")$0"
         ]
     },
-    "Dash HTML Component - Strong": {
+    "Dash HTML Component - Nav": {
         "prefix": "dashhtmlnav",
         "description": "Create a <nav></nav> HTML element",
         "body": [

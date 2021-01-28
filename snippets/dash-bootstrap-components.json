@@ -1,0 +1,29 @@
+{
+
+    "Dash Bootstrap Components- Alert": {
+        "prefix": "dashbootstrapalert",
+        "description": "Create a dbc.Alert element",
+        "body": [
+			"dbc.Alert(children=[$1], color='$2',",
+            ")$0"
+        ]
+    },   
+    "Dash Bootstrap Components- Badge": {
+        "prefix": "dashbootstrapbadge",
+        "description": "Create a dbc.Badge element",
+        "body": [
+			"dbc.Badge('$1', className='$2', color='$3'",
+            ")$0"
+        ]
+    },   
+    "Dash Bootstrap Components- Button": {
+        "prefix": "dashbootstrapbutton",
+        "description": "Create a dbc.Button element",
+        "body": [
+			"dbc.Button(id='$1', className='$2'",
+            "\tchildren=[$3]",
+            ")$0"
+        ]
+    }
+    
+}
