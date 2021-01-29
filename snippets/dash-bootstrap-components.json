@@ -16,7 +16,7 @@
         ]
     },   
     "Dash Bootstrap Components- Button": {
-        "prefix": "dbcbutton",
+        "prefix": "dbcbtn",
         "description": "Create a dbc.Button element",
         "body": [
 			"dbc.Button(id='$1', className='$2',",

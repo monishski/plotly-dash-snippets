@@ -1,4 +1,52 @@
 {
+	"Import Dash": {
+        "prefix": "imdash",
+        "description": "from dash import Dash",
+        "body": [
+            "from dash import Dash",
+            "$0"
+        ]
+	},
+    "Import Dash Dependencies": {
+        "prefix": "iminoutstate",
+        "description": "from dash.dependencies import Input, Output, State",
+        "body": [
+            "from dash.dependencies import Input, Output, State",
+            "$0"
+        ]
+	},
+    "Import Dash Core Components": {
+        "prefix": "imdcc",
+        "description": "import dash_core_components as dcc",
+        "body": [
+            "import dash_core_components as dcc",
+            "$0"
+        ]
+    },
+    "Import Dash HTML Components": {
+        "prefix": "imhtml",
+        "description": "import dash_html_components as html",
+        "body": [
+            "import dash_html_components as html",
+            "$0"
+        ]
+    },
+    "Import Dash Boostrap Components": {
+        "prefix": "imdbc",
+        "description": "import dash_bootstrap_components as dbc",
+        "body": [
+            "import dash_bootstrap_components as dbc",
+            "$0"
+        ]
+    },
+    "Create Dash App Instace": {
+        "prefix": "dashapp",
+        "description": "Create Dash App Instance",
+        "body": [
+            "app = dash.Dash(__name__)",
+            "$0"
+        ]
+	},
 	"Dash - Uncontrolled State Callback": {
 		"prefix": "dashcb",
 		"description": "Create uncontrolled state callback function",

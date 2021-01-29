@@ -10,13 +10,13 @@ The snippets in this pluggin cover components from the Dash HTML Components & Da
 
 All snippets start with the prefix `dash`. 
 
-For example, predefined Dash HTML Components start with the prefix `dashhtml`, Dash Core Component start with the prefix `dashcore` .
+For example, predefined Dash HTML Components start with the prefix `html`, Dash Core Component start with the prefix `dcc` .
 
 In addition, abstractions such as callbacks live on their own (e.g. for an uncontrolled callback, you would call `dashcb`, while for a controlled stateful callback, you would call `dashcbstate`)
 
 ## To do
 
-- Create snippets for Dash Bootstrap Components (developed by [faculty.ai](https://faculty.ai)) & Plotly packages. Ideally, Plotly objects should start with `dashplotly` & Dash Bootstrap Components should start with the prefix `dashboot` 
+- Create snippets for Dash Bootstrap Components (developed by [faculty.ai](https://faculty.ai)) & Plotly packages. Ideally, Plotly objects should start with `plotly` & Dash Bootstrap Components should start with the prefix `dbc` 
 
 - Create snippets for other abstractions (e.g. importing, creating the application etc.) [?] 
 
@@ -25,6 +25,7 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 - `dashcb` - Uncontrolled Stateless Callback
 - `dashcbstate` - Controlled Stateful Callback
 - `dashinlinestyle` - Inline Styling 
+
 
 ### Dash HTML Component Snippets:
 
@@ -81,6 +82,15 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 - `dcctabs` - Core Component - Tabs
 - `dcctextarea` - Core Component - Textarea
 
+
+### Dash Boostrap Component Snippets:
+
+- `dbcalert` - Dash Bootstrap Components - Alert
+- `dbcbadge` - Dash Bootstrap Components - Badge
+- `dbcbtn` - Dash Bootstrap Components - Button
+- `dbccol` - Dash Bootstrap Components - Col
+- `dbcrow` -  Dash Bootstrap Components - Row
+
 ## Known Issues
 
 Please add known issues here. 
@@ -90,3 +100,6 @@ Please add known issues here.
 ### 0.0.1
 - Dash HTML Component Snippets Added
 - Dash Core Component Snippets Added
+
+### 0.0.3
+- Dash Bootstrap Component Snippets Added
