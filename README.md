@@ -27,7 +27,6 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 - `imdbc` - Import Dash Boostrap Components
 - `imflask` - Import Flask
 - `imflaskcache` - Import Flask Cache
-
 - `dashcb` - Uncontrolled State Callback
 - `dashcbstate` - Controlled State Callback
 - `dashapp` - Create Dash App Instace
@@ -35,9 +34,7 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 - `dashencodeimg` - Image Encoding Function
 - `dashhtmltemplate` - Customize Dash's HTML Index Template
 - `dashinlinestyle` - Dash Inline Styling
-
 - `flaskserver` - Create Flask Server Instace
-
 - `cacheredis` - Create Flask Cache Redis
 - `cachefilesystem` - Create Flask Cache File System
 - `memoize` - Create Flask Cache Memoize Function
