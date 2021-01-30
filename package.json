@@ -2,7 +2,7 @@
     "name": "plotly-dash-snippets",
     "displayName": "Plotly Dash Snippets",
     "description": "Snippets extension plugin for VS for the Plotly Dash microframework",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -35,6 +35,10 @@
             {
                 "language": "python",
                 "path": "./snippets/dash-core-components.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/dash-bootstrap-components.json"
             },
             {
                 "language": "python",
