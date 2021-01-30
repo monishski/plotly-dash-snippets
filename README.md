@@ -6,9 +6,7 @@ This is a snippets extension plugin for Visual Studio Code for the Plotly Dash m
 
 ## Features
 
-The snippets in this pluggin cover components from the Dash HTML Components & Dash Core Components Python packages.
-
-All snippets start with the prefix `dash`. 
+The snippets in this pluggin cover components from the Dash HTML Components, Dash Core Components & some from the Dash Bootstrap Componens Python packages.
 
 For example, predefined Dash HTML Components start with the prefix `html`, Dash Core Component start with the prefix `dcc` .
 
@@ -18,14 +16,31 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 
 - Create snippets for Dash Bootstrap Components (developed by [faculty.ai](https://faculty.ai)) & Plotly packages. Ideally, Plotly objects should start with `plotly` & Dash Bootstrap Components should start with the prefix `dbc` 
 
-- Create snippets for other abstractions (e.g. importing, creating the application etc.) [?] 
+- Create snippets for other abstractions [?] 
 
 ### Dash Generic Snippets: 
 
-- `dashcb` - Uncontrolled Stateless Callback
-- `dashcbstate` - Controlled Stateful Callback
-- `dashinlinestyle` - Inline Styling 
+- `imdash` - Import Dash
+- `iminoutstate` - Import Dash Dependencies
+- `imdcc` - Import Dash Core Components
+- `imhtml` - Import Dash HTML Components
+- `imdbc` - Import Dash Boostrap Components
+- `imflask` - Import Flask
+- `imflaskcache` - Import Flask Cache
 
+- `dashcb` - Uncontrolled State Callback
+- `dashcbstate` - Controlled State Callback
+- `dashapp` - Create Dash App Instace
+- `dashrunserver` - Run Dash App
+- `dashencodeimg` - Image Encoding Function
+- `dashhtmltemplate` - Customize Dash's HTML Index Template
+- `dashinlinestyle` - Dash Inline Styling
+
+- `flaskserver` - Create Flask Server Instace
+
+- `cacheredis` - Create Flask Cache Redis
+- `cachefilesystem` - Create Flask Cache File System
+- `memoize` - Create Flask Cache Memoize Function
 
 ### Dash HTML Component Snippets:
 
@@ -82,7 +97,6 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 - `dcctabs` - Core Component - Tabs
 - `dcctextarea` - Core Component - Textarea
 
-
 ### Dash Boostrap Component Snippets:
 
 - `dbcalert` - Dash Bootstrap Components - Alert
@@ -102,4 +116,7 @@ Please add known issues here.
 - Dash Core Component Snippets Added
 
 ### 0.0.3
-- Dash Bootstrap Component Snippets Added
+- Some Dash Bootstrap Component Snippets Added
+- Further Generic Snippets Added (imports/applications generation)
+- Dash HTML Components prefix has been changed from `dashhtml` to `html`, Dash Core Components prefix has been changed from `dashcore` for `dcc` & similarly Dash Bootstrap Components will start with `dbc`
+
