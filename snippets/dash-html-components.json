@@ -29,8 +29,7 @@
         "prefix": "htmldiv",
         "description": "Create a <div></div> HTML element",
         "body": [
-            "html.Div(id='$1', className='$2'",
-            "\tchildren=[$3]",
+            "html.Div([$3], \tid='$3', className='$1'",
             ")$0"
         ]
     },

@@ -3,7 +3,7 @@
         "prefix": "dbcalert",
         "description": "Create a dbc.Alert element",
         "body": [
-			"dbc.Alert(children=[$1], color='$2',",
+			"dbc.Alert([$1], color='$2',",
             ")$0"
         ]
     },   
@@ -19,25 +19,47 @@
         "prefix": "dbcbutton",
         "description": "Create a dbc.Button element",
         "body": [
-			"dbc.Button(id='$1', className='$2',",
-            "\tchildren=[$3]",")$0"
+			"dbc.Button([$3], id='$2', className='$1')$0"
         ]
     },   
     "Dash Bootstrap Components- Col": {
         "prefix": "dbccol",
         "description": "Create a dbc.Col element",
         "body": [
-			"dbc.Col([],", 
-            "\tlg='12', md='12', sm='12')$0"
+			"dbc.Col([html.Div([$1)],\tlg='12', md='12', sm='12')$0"
         ]
     },   
     "Dash Bootstrap Components- Row": {
         "prefix": "dbcrow",
         "description": "Create a dbc.Row element",
         "body": [
-			"dbc.Row([$1], className='$2'",")$0"
+            "dbc.Row(\t[\tdbc.Col([$1], lg='12')\t],\t", 
+            "className='$2'",")$0"
         ]
-    }
-    
+    },
+    "Dash Bootstrap Components- Row with 2 cols": {
+        "prefix": "dbcrows2cols",
+        "description": "Create a dbc.Row element with 2 dbc.Col elements embedded.",
+        "body": [
+            "dbc.Row(\t[\tdbc.Col([$3], lg='6'),\t[dbc.Col([$2], lg='6'),\t],\t", 
+            "className='$1'",")$0"
+        ]
+    },
+    "Dash Bootstrap Components- Row with 3 cols": {
+        "prefix": "dbcrows3cols",
+        "description": "Create a dbc.Row element with 3 dbc.Col elements embedded.",
+        "body": [
+            "dbc.Row(\t[\tdbc.Col([$4], lg='4'),\t[dbc.Col([$3], lg='4'),\t[dbc.Col([$2], lg='4'),\t],\t", 
+            "className='$1'",")$0"
+        ]
+    },
+    "Dash Bootstrap Components- Row with 4 cols": {
+        "prefix": "dbcrows4cols",
+        "description": "Create a dbc.Row element with 4 dbc.Col elements embedded.",
+        "body": [
+            "dbc.Row(\t[\tdbc.Col([$5], lg='3'),\t[dbc.Col([$4], lg='3'),\t[dbc.Col([$3], lg='3'),\t[dbc.Col([$2], lg='3'),\t],\t", 
+            "className='$1')$0"
+        ]
+    }   
 }
 
