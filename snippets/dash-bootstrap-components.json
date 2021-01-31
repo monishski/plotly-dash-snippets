@@ -3,20 +3,18 @@
         "prefix": "dbcalert",
         "description": "Create a dbc.Alert element",
         "body": [
-			"dbc.Alert([$1], color='$2',",
-            ")$0"
+			"dbc.Alert([$1], color='$2')$0"
         ]
     },   
     "Dash Bootstrap Components- Badge": {
         "prefix": "dbcbadge",
         "description": "Create a dbc.Badge element",
         "body": [
-			"dbc.Badge('$1', className='$2', color='$3'",
-            ")$0"
+			"dbc.Badge(children='$1', className='$2', color='$3')$0"
         ]
     },   
     "Dash Bootstrap Components- Button": {
-        "prefix": "dbcbutton",
+        "prefix": "dbcbtn",
         "description": "Create a dbc.Button element",
         "body": [
 			"dbc.Button([$3], id='$2', className='$1')$0"

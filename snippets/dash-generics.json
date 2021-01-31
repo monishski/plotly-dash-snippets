@@ -1,30 +1,175 @@
 {
-	"Dash - Uncontrolled State Callback": {
-		"prefix": "dashcb",
-		"description": "Create uncontrolled state callback function",
-		"body": [
-			"@app.callback(Output('${output_id}', '${output_prop}'), ",
-			"\t\t\tInput('${input_id}', '${input_prop}'))",
-			"def ${fn}(${input_prop}):",
-			"\treturn $0"
-		]
-	},
-	"Dash - Controlled State Callback": {
-		"prefix": "dashcbstate",
-		"description": "Create controlled state callback function",
-		"body": [
-			"@app.callback(Output('${output_id}', '${output_prop}'), ",
-			"\t\t\tInput('${input_id}', '${input_prop}'))",
-			"\t\t\tState('${state_id}', '${state_prop}'))",
-			"def ${fn}(${input_prop}, ${state_prop}):",
-			"\treturn $0"
-		]
-	},
-	"Dash Inline Styling": {
+    "Import Dash": {
+        "prefix": "imdash",
+        "description": "from dash import Dash",
+        "body": [
+            "from dash import Dash",
+            "$0"
+        ]
+    },
+    "Import Dash Dependencies": {
+        "prefix": "iminoutstate",
+        "description": "from dash.dependencies import Input, Output, State",
+        "body": [
+            "from dash.dependencies import Input, Output, State",
+            "$0"
+        ]
+    },
+    "Import Dash Core Components": {
+        "prefix": "imdcc",
+        "description": "import dash_core_components as dcc",
+        "body": [
+            "import dash_core_components as dcc",
+            "$0"
+        ]
+    },
+    "Import Dash HTML Components": {
+        "prefix": "imhtml",
+        "description": "import dash_html_components as html",
+        "body": [
+            "import dash_html_components as html",
+            "$0"
+        ]
+    },
+    "Import Dash Boostrap Components": {
+        "prefix": "imdbc",
+        "description": "import dash_bootstrap_components as dbc",
+        "body": [
+            "import dash_bootstrap_components as dbc",
+            "$0"
+        ]
+    },
+    "Import Flask": {
+        "prefix": "imflask",
+        "description": "import flask",
+        "body": [
+            "import flask",
+            "$0"
+        ]
+    },
+    "Import Flask Cache": {
+        "prefix": "imflaskcache",
+        "description": "from flask_caching import Cache",
+        "body": [
+            "import flask_caching import Cache",
+            "$0"
+        ]
+    },
+    "Create Flask Server Instace": {
+        "prefix": "flaskserver",
+        "description": "Create Flask Server Instance",
+        "body": [
+            "server = flask.Flask(__name__)",
+            "$0"
+        ]
+    },
+    "Create Dash App Instace": {
+        "prefix": "dashapp",
+        "description": "Create Dash App Instance",
+        "body": [
+            "app = dash.Dash(__name__, server=server, external_stylesheets=[dbc.themes.BOOTSTRAP, $1], external_scripts=$2)",
+            "$0"
+        ]
+    },
+    "Run Dash App": {
+        "prefix": "dashrunserver",
+        "description": "Run Dash App",
+        "body": [
+            "if __name__ == '__main__':",
+            "\tapp.run_server(debug=True)"
+        ]
+    },
+    "Create Flask Cache Redis": {
+        "prefix": "cacheredis",
+        "description": "Create Redis Cache Instance",
+        "body": [
+            "cache = Cache(app.server, config={",
+            "\t'CACHE_TYPE': 'redis'",
+            "\t'CACHE_REDIS_URL': '$1'",
+            "})$0"
+        ]
+    },
+    "Create Flask Cache File System": {
+        "prefix": "cachefilesystem",
+        "description": "Create File System Cache Instance",
+        "body": [
+            "cache = Cache(app.server, config={",
+            "\t'CACHE_TYPE': 'filesystem'",
+            "\t'CACHE_DIR': 'cache-directory'",
+            "})$0"
+        ]
+    },
+    "Create Flask Cache Memoize Function": {
+        "prefix": "memoize",
+        "description": "Create Flask Cache Memoize Function",
+        "body": [
+            "@cache.memoize(timeout=$1)",
+            "def ${fn}($2):",
+            "\treturn $0"
+        ]
+    },
+    "Dash - Image Encoding Function": {
+        "prefix": "dashencodeimg",
+        "description": "Create a function that encodes img into base64",
+        "body": [
+            "def b64_image(${image_filename})",
+            "\t'''Encode jpg/png image into base64 img'''",
+            "\twith open(${image_filename}, 'rb') as file:",
+            "\t\timage = file.read()",
+            "\treturn 'data:image/png;base64'+base64.b64encode(image).decode('utf-8')"
+        ]
+    },
+    "Dash - Customize Dash's HTML Index Template": {
+        "prefix": "dashhtmltemplate",
+        "description": "Customize Dash's HTML Index Template",
+        "body": [
+            "app.index_string = '''",
+            "<!DOCTYPE html>",
+            "<html>",
+            "\t<head>",
+            "\t\t{%metas%}",
+            "\t\t<title>{%${title}%}</title>",
+            "\t\t{%favicon%}",
+            "\t\t{%css%}",
+            "\t</head>",
+            "\t<body>",
+            "\t\t{%app_entry%}",
+            "\t\t<footer>",
+            "\t\t\t{%config%}",
+            "\t\t\t{%scripts%}",
+            "\t\t\t{%renderer%}",
+            "\t\t</footer>",
+            "\t</body>",
+            "</html>",
+            "'''"
+        ]
+    },
+    "Dash - Uncontrolled State Callback": {
+        "prefix": "dashcb",
+        "description": "Create uncontrolled state callback function",
+        "body": [
+            "@app.callback(Output('${output_id}', '${output_prop}'), ",
+            "\t\t\tInput('${input_id}', '${input_prop}'))",
+            "def ${fn}(${input_prop}):",
+            "\treturn $0"
+        ]
+    },
+    "Dash - Controlled State Callback": {
+        "prefix": "dashcbstate",
+        "description": "Create controlled state callback function",
+        "body": [
+            "@app.callback(Output('${output_id}', '${output_prop}'), ",
+            "\t\t\tInput('${input_id}', '${input_prop}'))",
+            "\t\t\tState('${state_id}', '${state_prop}'))",
+            "def ${fn}(${input_prop}, ${state_prop}):",
+            "\treturn $0"
+        ]
+    },
+    "Dash Inline Styling": {
         "prefix": "dashinlinestyle",
         "description": "Create a style dictionary",
         "body": [
             "style={'$1': '$2'}$0"
         ]
-	}
+    }
 }
