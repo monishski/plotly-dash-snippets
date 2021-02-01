@@ -12,6 +12,11 @@ For example, predefined Dash HTML Components start with the prefix `html`, Dash 
 
 In addition, abstractions such as callbacks live on their own (e.g. for an uncontrolled callback, you would call `dashcb`, while for a controlled stateful callback, you would call `dashcbstate`)
 
+#### Example
+
+![gif](./dash-plotly-snippets-vs.gif)
+
+
 ## To do
 
 - Create snippets for Dash Bootstrap Components (developed by [faculty.ai](https://faculty.ai)) & Plotly packages. Ideally, Plotly objects should start with `plotly` & Dash Bootstrap Components should start with the prefix `dbc` 
@@ -96,11 +101,14 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 
 ### Dash Boostrap Component Snippets:
 
-- `dbcalert` - Dash Bootstrap Components - Alert
-- `dbcbadge` - Dash Bootstrap Components - Badge
-- `dbcbtn` - Dash Bootstrap Components - Button
-- `dbccol` - Dash Bootstrap Components - Col
-- `dbcrow` -  Dash Bootstrap Components - Row
+- `dbcalert` - Bootstrap Components - Alert
+- `dbcbadge` - Bootstrap Components - Badge
+- `dbcbtn` - Bootstrap Components - Button
+- `dbccol` - Bootstrap Components - Col
+- `dbcrow` -  Bootstrap Components - Row
+- `dbcrow2cols` -  Bootstrap Components - Row with 2 columns embedded
+- `dbcrow3cols` -  Bootstrap Components - Row with 3 columns embedded
+- `dbcrow4cols` -  Bootstrap Components - Row with 4 columns embedded
 
 ## Known Issues
 

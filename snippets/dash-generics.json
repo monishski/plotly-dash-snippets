@@ -159,7 +159,7 @@
         "description": "Create controlled state callback function",
         "body": [
             "@app.callback(Output('${output_id}', '${output_prop}'), ",
-            "\t\t\tInput('${input_id}', '${input_prop}'))",
+            "\t\t\tInput('${input_id}', '${input_prop}'),",
             "\t\t\tState('${state_id}', '${state_prop}'))",
             "def ${fn}(${input_prop}, ${state_prop}):",
             "\treturn $0"
