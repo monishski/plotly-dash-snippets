@@ -24,8 +24,9 @@
         "prefix": "dbccol",
         "description": "Create a dbc.Col element",
         "body": [
-            "dbc.Col([html.Div([$1)],",
-            "\tlg='12', md='12', sm='12')$0"
+            "dbc.Col([",
+            "\t$1",
+            "], lg='12', md='12', sm='12')$0"
         ]
     },   
     "Dash Bootstrap Components - Row": {

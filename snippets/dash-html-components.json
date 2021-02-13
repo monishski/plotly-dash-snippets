@@ -3,10 +3,8 @@
         "prefix": "htmla",
         "description": "Create a <a></a> HTML element",
         "body": [
-            "html.A(id='$1', className='$2',",
-            "\thref='$3',",
-            "\tchildren=[$4]",
-            ")$0"
+            "html.A(id='$1', className='$2', children=[$3]",
+            "\thref='$4')$0"
         ]
     },
     "Dash HTML Component - Break": {
@@ -20,17 +18,18 @@
         "prefix": "htmlbtn",
         "description": "Create a <button></button> HTML element",
         "body": [
-            "html.Button(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Button(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Div": {
         "prefix": "htmldiv",
         "description": "Create a <div></div> HTML element",
         "body": [
-            "html.Div([$3], \tid='$3', className='$1'",
-            ")$0"
+            "html.Div(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Figure": {
@@ -44,18 +43,18 @@
         "prefix": "htmlform",
         "description": "Create a <form></form> HTML element",
         "body": [
-            "html.Form(id='$1', className='$2', action='$3', encType='$4', method='POST'",
-            "\tchildren=[$5]",
-            ")$0"
+            "html.Form(id='$1', className='$2', children=[",
+            "\t$3",
+            "], action='$4', encType='$5', method='POST')$0"
         ]
     },
     "Dash HTML Component - Frame": {
         "prefix": "htmlframe",
         "description": "Create a <frame></frame> HTML element",
         "body": [
-            "html.Frame(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Frame(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - H1": {
@@ -125,20 +124,17 @@
         "prefix": "htmliframe",
         "description": "Create a <iframe></iframe> HTML element",
         "body": [
-            "html.Iframe(id='$1', className='$2',",
-            "\tsrc='$3',",
-            "\tchildren=[$4]",
-            ")$0"
+            "html.Iframe(id='$1', className='$2', children=[",
+            "\t$3",
+            "], src='$4')$0"
         ]
     },
     "Dash HTML Component - Img": {
         "prefix": "htmlimg",
         "description": "Create a <img> HTML element",
         "body": [
-            "html.Img(id='$1', className='$2',",
-            "\tsrc='$3', alt='$4',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Img(id='$1', className='$2', children=[$3],",
+            "\tsrc='$4', alt='$5')$0"
         ]
     },
     "Dash HTML Component - Label": {
@@ -152,35 +148,33 @@
         "prefix": "htmlli",
         "description": "Create a <li></li> HTML element",
         "body": [
-            "html.Li(id='$1', className='$2'",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Li(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Link": {
         "prefix": "htmllink",
         "description": "Create a <link></link> HTML element",
         "body": [
-            "html.Link(id='$1', className='$2',",
-            "\thref='$3',",
-            "\tchildren=[$4]",
-            ")$0"
+            "html.Link(id='$1', className='$2', children=[$3],",
+            "\thref='$4')$0"
         ]
     },
     "Dash HTML Component - Nav": {
         "prefix": "htmlnav",
         "description": "Create a <nav></nav> HTML element",
         "body": [
-            "html.Nav(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Nav(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },    
     "Dash HTML Component - Strong": {
         "prefix": "htmlstrong",
         "description": "Create a <strong></strong> HTML element",
         "body": [
-            "html.Strong([$1], className='$2')$0"
+            "html.Strong(children=[$1], className='$2')$0"
         ]
     },
     "Dash HTML Component - Span": {
@@ -194,18 +188,18 @@
         "prefix": "htmltable",
         "description": "Create a <table></table> HTML element",
         "body": [
-            "html.Table(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Table(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Tbody": {
         "prefix": "htmltbody",
         "description": "Create a <tbody></tbody> HTML element",
         "body": [
-            "html.Tbody(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Tbody(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Td": {
@@ -219,10 +213,9 @@
         "prefix": "htmltextarea",
         "description": "Create a <textarea></textarea> HTML element",
         "body": [
-            "html.Textarea(id='$1', className='$2',",
-            "\trows=$3, cols=$4,",
-            "\tchildren=[$5]",
-            ")$0"
+            "html.Textarea(id='$1', className='$2', children=[",
+            "\t$5",
+            "], rows=$3, cols=$4)$0"
         ]
     },
     "Dash HTML Component - Th": {
@@ -236,9 +229,9 @@
         "prefix": "htmlthead",
         "description": "Create a <thead></thead> HTML element",
         "body": [
-            "html.Thead(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Thead(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     },
     "Dash HTML Component - Tr": {
@@ -252,9 +245,9 @@
         "prefix": "htmlul",
         "description": "Create a <ul></ul> HTML element",
         "body": [
-            "html.Ul(id='$1', className='$2',",
-            "\tchildren=[$3]",
-            ")$0"
+            "html.Ul(id='$1', className='$2', children=[",
+            "\t$3",
+            "])$0"
         ]
     }
 }

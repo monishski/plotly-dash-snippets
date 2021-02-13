@@ -114,14 +114,12 @@ In addition, abstractions such as callbacks live on their own (e.g. for an uncon
 
 Please add known issues here. 
 
-## Release Notes
+## Release Notes / Latest Changes
 
-### 0.0.1
-- Dash HTML Component Snippets Added
-- Dash Core Component Snippets Added
-
-### 0.0.3
-- Some Dash Bootstrap Component Snippets Added
+- 'children' property was moved up 1 line in most components
+- Additional Bootstrap Components Added (dbcrow2cols etc.) 
 - Further Generic Snippets Added (imports/applications generation)
 - Dash HTML Components prefix has been changed from `dashhtml` to `html`, Dash Core Components prefix has been changed from `dashcore` for `dcc` & similarly Dash Bootstrap Components will start with `dbc`
+- Dash HTML Component Snippets Added
+- Dash Core Component Snippets Added
 
