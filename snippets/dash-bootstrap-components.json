@@ -70,6 +70,47 @@
             "\tdbc.Col([$4], lg='3'),",
             "])$0"
         ]
-    }   
+    },
+    "Dash Bootstrap Components - Card": {
+        "prefix": "dbccard",
+        "description": "Create a dbc.Card element",
+        "body": [
+			"dbc.Card([",
+            "\tdbc.CardImg(src='$1', top=True),",
+            "\tdbc.CardBody(className='card-text', [",
+            "\t\thtml.H4('$2', className='card-title'),",
+            "\t\thtml.P('$3', className='card-text'),",
+            "\t]),",
+            "\tdbc.Button('Go somewhere', color='primary'),",
+            "], style={'width': '$4'})$0"
+        ]
+    },  
+    "Dash Bootstrap Components - List Group": {
+        "prefix": "dbccardlistgroup",
+        "description": "Create a dbc.ListGroup element within dbc.Card",
+        "body": [
+			"dbc.Card([",
+            "\tdbc.ListGroup([",
+            "\t\tdbc.ListGroupItem('$1'),",
+            "\t\tdbc.ListGroupItem('$2'),",
+            "\t\tdbc.ListGroupItem('$3'),",
+            "\t]),$4",
+            "], style={'width': '$4'})$0"
+        ]
+    }, 
+    "Dash Bootstrap Components - Card Header": {
+        "prefix": "dbccardheader",
+        "description": "Create a dbc.CardHeader element",
+        "body": [
+			"dbc.CardHeader('$1')$0"
+        ]
+    }, 
+    "Dash Bootstrap Components - Card Footer": {
+        "prefix": "dbccardfooter",
+        "description": "Create a dbc.CardFooter element",
+        "body": [
+			"dbc.CardFooter('$1')$0"
+        ]
+    }
 }
 
