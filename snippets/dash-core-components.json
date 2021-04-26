@@ -86,9 +86,9 @@
         "prefix": "dccloading",
         "description": "Create a dcc.Loading element",
         "body": [
-			"dcc.Loading( className='$2', color='$3', children=[",
-			"\t$5",
-			"])$0"
+			"dcc.Loading(className='$1', parent_className=$2, children=[",
+			"\t$3",
+			"], color='$4', type='circle')$0"
         ]
 	},
 	"Dash Core Component - Location": {

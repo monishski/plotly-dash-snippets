@@ -116,6 +116,7 @@ Please add known issues here.
 
 ## Release Notes / Latest Changes
 
+- Bootstrap Card related components added
 - 'children' property was moved up 1 line in most components
 - Additional Bootstrap Components Added (dbcrow2cols etc.) 
 - Further Generic Snippets Added (imports/applications generation)
